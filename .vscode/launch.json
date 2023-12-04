@@ -1,0 +1,38 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "1",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\1\\index.mjs",
+            "runtimeExecutable": "E:\\node\\node.exe"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "2",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\2\\index.mjs",
+            "runtimeExecutable": "E:\\node\\node.exe"
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "3",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\3\\index.mjs",
+            "runtimeExecutable": "E:\\node\\node.exe"
+        }
+    ]
+}
